@@ -137,7 +137,16 @@ A formal citation and DOI may be added following a versioned research software r
 
 ## License
 
-A software licence will be added in a subsequent repository update.
+
+## License
+
+The source code in this repository is distributed under the [MIT License](LICENSE).
+
+Copyright (c) 2026 Nafisa Mosaddek.
+
+The MIT License applies to the software and associated source code only. It does not apply to the original field-collected research dataset, which is not included in this repository.
+
+The original dataset remains the responsibility of its respective data owners and is subject to applicable data-sharing permissions. No permission to reproduce, redistribute, or commercially use the original dataset is granted through this software license.
 
 ---
 
