@@ -1,0 +1,39 @@
+
+# Original and private research datasets
+*.csv
+*.rds
+*.RData
+*.rda
+*.xlsx
+*.xls
+*.sav
+*.dta
+
+# Local data directories
+data/
+raw_data/
+original_data/
+private_data/
+
+# R temporary and session files
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+.Renviron
+
+# RStudio project files
+*.Rproj
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# Shiny deployment credentials and metadata
+rsconnect/
