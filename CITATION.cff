@@ -1,0 +1,31 @@
+
+cff-version: 1.2.0
+message: "If you use this software in your research, please cite this repository."
+title: "Climate-Adaptive Hybrid Renewable Energy Systems: An R-Based Digital Twin for Optimizing Energy Reliability and Environmental Health Resilience in Coastal Bangladesh"
+type: software
+
+authors:
+  - family-names: "Mosaddek"
+    given-names: "Nafisa"
+    orcid: "https://orcid.org/0000-0002-5003-0772"
+
+abstract: >
+  An R-based digital twin research framework for exploring climate
+  conditions, hybrid renewable energy generation, battery storage,
+  electricity reliability, and healthcare-critical energy resilience
+  in coastal Bangladesh.
+
+repository-code: "https://github.com/nafisa28128/coastal-energy-digital-twin"
+url: "https://github.com/nafisa28128/coastal-energy-digital-twin"
+license: MIT
+
+keywords:
+  - Digital twin
+  - Renewable energy
+  - Coastal Bangladesh
+  - Climate resilience
+  - Energy reliability
+  - Battery energy storage
+  - Healthcare resilience
+  - R programming
+  - Shiny dashboard
