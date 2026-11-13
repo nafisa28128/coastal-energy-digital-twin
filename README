@@ -1,0 +1,144 @@
+# Climate-Adaptive Hybrid Renewable Energy Systems: An R-Based Digital Twin for Coastal Bangladesh
+
+An R-based digital twin project exploring the relationship between hybrid renewable energy systems, climate variability, energy reliability, and healthcare resilience in coastal Bangladesh.
+
+## Project Overview
+
+Coastal communities in Bangladesh face interconnected challenges arising from climate variability, extreme weather events, energy insecurity, and disruptions to essential healthcare services. Reliable electricity is particularly important for healthcare facilities that depend on continuous power for medical equipment, vaccine storage, cold-chain operations, and other critical services.
+
+This project develops an R-based digital twin framework to examine the performance and resilience of a hybrid renewable energy system under observed environmental and operational conditions.
+
+The framework brings together renewable energy generation, electricity demand, battery storage, grid availability, climatic conditions, and healthcare-related electricity requirements within an integrated analytical environment.
+
+An interactive R Shiny dashboard is developed to explore system performance and identify potential vulnerabilities in energy supply and healthcare-critical operations.
+
+## Research Objectives
+
+The project aims to:
+
+1. Examine the relationship between climatic conditions and hybrid renewable energy generation.
+2. Assess energy supply-demand dynamics and system reliability.
+3. Investigate the role of battery energy storage in managing electricity deficits.
+4. Explore the implications of energy disruptions for healthcare-critical electricity demand.
+5. Develop an interactive dashboard to support the analysis of climate-adaptive energy systems.
+
+## Study Data
+
+The project uses an hourly dataset covering the year 2025, comprising 8,760 observations.
+
+The dataset was collected by the researcher and research team through field-based data collection and system monitoring. It contains environmental, renewable energy, electricity demand, battery storage, and healthcare-related variables.
+
+The dataset includes the following categories:
+
+| Category | Variables |
+|---|---|
+| Climate and environmental conditions | Ambient temperature, relative humidity, heat index, thermal stress index |
+| Renewable energy resources | Solar irradiance, wind speed, tidal velocity |
+| Energy generation | Solar PV, wind, tidal, and total power generation |
+| Electricity demand | Total load demand and medical cold-chain load |
+| Energy storage | Battery state of charge, charging and discharging power |
+| System reliability | Grid availability and unmet electricity demand |
+| Healthcare resilience | Healthcare outage risk |
+| Extreme events | Extreme weather indicator |
+
+**Data availability:** The original field dataset is not included in this public repository. Its availability for research or replication is subject to data-sharing permissions and appropriate approval.
+
+## Digital Twin Framework
+
+The project integrates five analytical dimensions:
+
+- **Climate conditions:** Examination of temperature, humidity, thermal stress, and extreme weather indicators.
+- **Renewable energy generation:** Assessment of solar, wind, and tidal generation.
+- **Energy demand and reliability:** Analysis of electricity demand, generation deficits, grid availability, and unmet load.
+- **Battery energy storage:** Examination of battery state of charge and charging and discharging behaviour.
+- **Healthcare resilience:** Exploration of the relationship between electricity supply disruptions and healthcare-critical energy requirements.
+
+The framework is intended to provide an integrated representation of the energy system and its operational vulnerabilities.
+
+## Interactive Dashboard
+
+The dashboard is developed using R Shiny and is intended to provide an interactive environment for exploring the system.
+
+The application is organised around the analysis of:
+
+- Overall system performance
+- Renewable energy generation and electricity demand
+- Climate and environmental conditions
+- Healthcare-related energy resilience
+- Underlying dataset and observations
+
+## Technology Stack
+
+- **R:** Data processing and statistical analysis
+- **Shiny:** Interactive dashboard development
+- **RStudio / R Console:** Application development and execution
+
+## Repository Structure
+
+```text
+coastal-energy-digital-twin/
+│
+├── app.R
+├── README.md
+└── .gitignore
+```
+
+Additional documentation and supporting analytical scripts may be added as the project develops.
+
+## Running the Dashboard
+
+1. Install [R](https://cran.r-project.org/).
+2. Open R or RStudio.
+3. Download or clone this repository.
+4. Set the working directory to the downloaded project folder.
+5. Install Shiny if it is not already installed:
+
+```r
+install.packages("shiny")
+```
+
+6. Launch the application:
+
+```r
+shiny::runApp()
+```
+
+**Note:** The original field dataset is not distributed through this repository. If the application requires external data files, the appropriate authorised dataset must be made available locally and the relevant file paths configured.
+
+## Scope and Limitations
+
+This repository represents an evolving research and analytical framework.
+
+The current dashboard focuses on exploring observed system data and presenting descriptive indicators of energy performance, environmental conditions, and healthcare-related electricity requirements.
+
+A digital twin framework should not automatically be interpreted as a validated predictive model or an optimisation engine. Further development, including calibrated climate-conditioned scenarios, formal battery dispatch optimisation, healthcare-priority load management, and independent model validation, would be required to establish those capabilities.
+
+Any scenario assumptions or simulated outputs introduced in subsequent versions should be clearly distinguished from observed field measurements.
+
+## Research Significance
+
+By connecting climate conditions, renewable energy generation, energy storage, electricity reliability, and healthcare-critical demand, this project seeks to contribute to research on climate-adaptive energy infrastructure in vulnerable coastal settings.
+
+The framework may provide a foundation for future research on resilient hybrid renewable energy systems, climate-sensitive infrastructure planning, and energy security for essential healthcare services in Bangladesh.
+
+## Author
+
+**Nafisa Mosaddek**
+
+Research interests: Environmental science, climate-resilient infrastructure, renewable energy systems, environmental data science, and healthcare resilience.
+
+## Citation
+
+If you use or refer to this project, please cite the repository:
+
+Mosaddek, N. *Climate-Adaptive Hybrid Renewable Energy Systems: An R-Based Digital Twin for Optimizing Energy Reliability and Environmental Health Resilience in Coastal Bangladesh*. GitHub repository.
+
+A formal citation and DOI may be added following a versioned research software release.
+
+## License
+
+A software licence will be added in a subsequent repository update.
+
+---
+
+*This repository is part of an ongoing research project. The code, documentation, and analytical framework may be updated as the research progresses.*
