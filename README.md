@@ -1,6 +1,6 @@
 # coastal-energy-digital-twin
 digital twin for climate-adaptive hybrid renewable energy systems and healthcare resilience
-
+LIVE DASHBOARD LINK: https://01a1dd58-c02c-bc38-e06f-5b6c64470d58.share.connect.posit.cloud/
 # Climate-Adaptive Hybrid Renewable Energy Systems: An R-Based Digital Twin for Optimizing Energy Reliability and Environmental Health Resilience in Coastal Bangladesh
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24199099.svg)](https://doi.org/10.5281/zenodo.24199099)
