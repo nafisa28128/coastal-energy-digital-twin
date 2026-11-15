@@ -20,7 +20,7 @@ repository-code: "https://github.com/nafisa28128/coastal-energy-digital-twin"
 url: "https://github.com/nafisa28128/coastal-energy-digital-twin"
 license: MIT
 
-version: 0.1.0
+version: 1.1.2
 doi: "10.5281/zenodo.24199099"
 date-released: "2026-11-13"
 
