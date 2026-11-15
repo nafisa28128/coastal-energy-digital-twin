@@ -1,4 +1,7 @@
 # Climate-Adaptive Hybrid Renewable Energy Systems: An R-Based Digital Twin for Coastal Bangladesh
+## Live Interactive Application
+Explore and test the interactive digital twin directly in your browser via Posit Connect Cloud:  
+https://01a1dd58-c02c-bc38-e06f-5b6c64470d58.share.connect.posit.cloud/
 
 An R-based digital twin project exploring the relationship between hybrid renewable energy systems, climate variability, energy reliability, and healthcare resilience in coastal Bangladesh.
 
